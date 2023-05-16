@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="rtabmap_odom" type="rgbd_odometry" name="rgbd_odometry" output="screen">
+    <remap from="/camera/image_raw" to="/camera/rgb/image_raw"/>
+    <remap from="/zed2/depth/depth_registered" to="/camera/depth/image_raw"/>
+    <remap from="/zed2/right_raw/camera_info" to="/rgb/camera_info"/>
+    <param name="subscribe_depth" value="true"/>
+    <param name="subscribe_stereo" value="false"/>
+    <param name="frame_id" value="base_link"/>
+  </node>
+</launch>
+

@@ -1,0 +1,2 @@
+leo_erc_common/leo_erc_description:leo_erc_common/leo_erc_teleop:leo_erc_desktop/leo_erc_gazebo:leo_erc_desktop/leo_erc_gazebo_worlds:leo_erc_desktop/leo_erc_viz:mapping_pkg:my_package
+-DCATKIN_DEVEL_PREFIX=/home/tiger/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tiger/catkin_ws/install -G Unix Makefiles
